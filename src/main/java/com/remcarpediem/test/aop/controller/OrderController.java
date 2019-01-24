@@ -1,7 +1,7 @@
 package com.remcarpediem.test.aop.controller;
 
-import com.remcarpediem.test.aop.aop.proxy.Log;
-import com.remcarpediem.test.aop.aop.proxy.LogLevel;
+import com.remcarpediem.test.aop.aop.advisor.Log;
+import com.remcarpediem.test.aop.aop.advisor.LogLevel;
 import com.remcarpediem.test.aop.form.CreateOrderForm;
 import com.remcarpediem.test.aop.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;

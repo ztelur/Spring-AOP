@@ -1,7 +1,7 @@
 package com.remcarpediem.test.aop.service;
 
-import com.remcarpediem.test.aop.aop.proxy.Log;
-import com.remcarpediem.test.aop.aop.proxy.LogLevel;
+import com.remcarpediem.test.aop.aop.advisor.Log;
+import com.remcarpediem.test.aop.aop.advisor.LogLevel;
 import org.springframework.stereotype.Service;
 
 @Service
